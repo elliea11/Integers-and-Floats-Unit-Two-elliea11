@@ -1,3 +1,27 @@
-x = 3
+""" x = 3
 y = float(3)
 print(x,y)
+ """
+""" Create variables representing at the bill, tip and total amount paid
+Receive user input and assign that user input to the variables in step 1 (excluding total)
+Change the data type of bill from String to Float
+Change the data type of tip to Integer (int)
+Calculate the total that needs to be paid
+Print the f string after the user has input data"""
+
+tip = 0
+total = 0
+
+bill = float(input("How much was your bill?"))
+service = int((input("Rate your service 1-5, 5 being the best, 1 being the worst. ")))
+if service == 1:
+    tip = 0
+if service == 2:
+    tip = 5
+if service == 3:
+    tip = 10
+if service == 4:
+    tip = 15
+if service == 5:
+    tip = 20
+total = bill + tip
