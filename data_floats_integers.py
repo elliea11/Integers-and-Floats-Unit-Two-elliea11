@@ -9,19 +9,17 @@ Change the data type of tip to Integer (int)
 Calculate the total that needs to be paid
 Print the f string after the user has input data"""
 
-tip = 0
-total = 0
-
 bill = float(input("How much was your bill?"))
 service = int((input("Rate your service 1-5, 5 being the best, 1 being the worst. ")))
 if service == 1:
-    tip = 0
-if service == 2:
-    tip = 5
-if service == 3:
-    tip = 10
-if service == 4:
-    tip = 15
-if service == 5:
-    tip = 20
-total = bill + tip
+    tip = 1.00
+elif service == 2:
+    tip = 1.10
+elif service == 3:
+    tip = 1.15
+elif service == 4:
+    tip = 1.20
+elif service == 5:
+    tip = 1.30
+total = bill * tip
+print(total)
