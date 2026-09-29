@@ -21,5 +21,5 @@ elif service == 4:
     tip = 1.20
 elif service == 5:
     tip = 1.30
-total = bill * tip
+total = bill* tip
 print(total)
