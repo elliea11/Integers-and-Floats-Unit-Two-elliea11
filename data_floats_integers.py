@@ -22,12 +22,17 @@ elif service == 4:
 elif service == 5:
     tip = 1.30
 total = bill* tip
-print(total) """
-
-def spaces(N,Y,T,):
+print(total)
+ """
+""" def spaces(N,Y,T,):
     x = 0
     for i in range(N):
         if Y[i] == "C" and T[i] == "C":
             x += 1
     print(x)
-spaces(5, "CC..C", ".CC..")
+spaces(5, "CC..C", ".CC..") """
+
+values = [1,2.23,5,7,2,30,15]
+print(values)
+for i in values:
+    print(i)
