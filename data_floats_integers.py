@@ -30,7 +30,7 @@ print(values)
 for i in values:
     print(i) """
 
-x = "this is a thing"
+""" x = "this is a thing"
 y= x.split( )
 z = y[0]
 print(y)
@@ -40,4 +40,25 @@ counter = str(input("Input any sentence of your choosing please."))
 print(counter)
 y = counter.split()
 print(y)
-print(len(y))
+print(len(y)) """
+
+""" day_of_week = input("what day is it? ")
+if day_of_week == "Friday":
+    print("correct")
+else:
+    print("incorrect") """
+
+
+def wizard(owner,N,duels):
+    #who owns the wand
+    last_owner = owner
+    #number of times changes
+    changes = 0
+    #check one single battle
+    #print(duels[0])
+    #check first character
+    """ print(duels[0][0]) """
+    #check if wand changed hands
+    """ if owner == duels[0][0]: """
+
+wizard("A",3,["BA", "CB", "DA"])
