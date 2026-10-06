@@ -9,7 +9,7 @@ Change the data type of tip to Integer (int)
 Calculate the total that needs to be paid
 Print the f string after the user has input data"""
 
-bill = float(input("How much was your bill?"))
+""" bill = float(input("How much was your bill?"))
 service = int((input("Rate your service 1-5, 5 being the best, 1 being the worst. ")))
 if service == 1:
     tip = 1.00
@@ -22,4 +22,12 @@ elif service == 4:
 elif service == 5:
     tip = 1.30
 total = bill* tip
-print(total)
+print(total) """
+
+""" def spaces(N,Y,T):
+    x = 0
+
+for i in range(N):
+    if Y[i] == "C" and T[i] == "C":
+        x += 1
+        print(x) """
