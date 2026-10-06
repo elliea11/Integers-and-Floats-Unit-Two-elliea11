@@ -68,7 +68,7 @@ else:
 
 """ wizard("A",3,["BA", "CB", "DA"]) """
 
-def wizards(N, start, duels):
+""" def wizards(N, start, duels):
     owner = start
     num_owners = 1
     for i in range(N):
@@ -78,8 +78,8 @@ def wizards(N, start, duels):
     print(owner, num_owners)
 
 wizards(3, "A", ["BA", "CB", "DA"])
-
-def language(N):
+ """
+""" def language(N):
     t = 0 
     s = 0
     
@@ -95,4 +95,25 @@ def language(N):
          print("English")
     else:
          print("French")
-language(3)
+language(3) """
+
+""" def tarifa(X,N):
+     x = X
+
+     for i in range(N):
+          used = int(input())
+          x = x - used + X
+     print(x)
+tarifa (10,3)
+ """
+""" def disease(P,N,R):
+    day = 0
+    total = N
+
+    while total <= P:
+        N = N * R
+        total += N
+        day += 1
+
+    print(day)
+disease(750, 1, 5) """
