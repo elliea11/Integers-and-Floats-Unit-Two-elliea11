@@ -51,23 +51,6 @@ if day_of_week == "Friday":
 else:
     print("incorrect") """
 
-""" def wizard(owner,N,duels):
-    #who owns the wand
-    last_owner = owner
-    #number of times changes
-    changes = 0
-    #check one single battle
-    #print(duels[0])
-    #check first character
-    print(duels[0][0])
-    if duels[0][1] == owner:
-        owner = duels[0][0]
-        changed_hands += 1
-    #check if wand changed hands
-    if owner == duels[0][0]: """
-
-""" wizard("A",3,["BA", "CB", "DA"]) """
-
 """ def wizards(N, start, duels):
     owner = start
     num_owners = 1
