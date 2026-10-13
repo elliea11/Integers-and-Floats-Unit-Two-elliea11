@@ -101,12 +101,12 @@ tarifa (10,3)
     print(day)
 disease(750, 1, 5) """
 
-x = int(input("Enter a number"))
+""" x = int(input("Enter a number"))
 print(x)
 if x % 2 == 0:
         print("Even")
 else:
-        print("Odd")
+        print("Odd") """
 
 def factors(x):
     for i in range(1,x + 1):
