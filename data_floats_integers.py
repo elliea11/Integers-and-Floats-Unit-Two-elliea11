@@ -108,9 +108,19 @@ if x % 2 == 0:
 else:
         print("Odd") """
 
-def factors(x):
+""" def factors(x):
     for i in range(1,x + 1):
         if x % i == 0:
             print(i)
 x = int(input("Enter a number"))
-factors(x)
+factors(x) """
+
+def gcf(x, y):
+    for i in range(1, x + 1):
+        if x % i == 0 and y % i == 0:
+            gcf = i
+    print(gcf)
+
+x = int(input("Enter a number"))
+y = int(input("Enter another number"))
+gcf(x, y)
